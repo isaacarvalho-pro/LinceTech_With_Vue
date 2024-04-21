@@ -13,45 +13,9 @@
   <body>
     <TheHeader>
     </TheHeader>
-      <!--<main>
-        <div class='slogan'>
-          <div class="divTextoSlogan">
-            <h1 class="textoSlogan">
-              POTENCIALIZAR
-            </h1>
+    <MainContent>
+    </MainContent>
 
-            <h1>
-              NEGÓCIOS ATRAVÉS DE
-            </h1>
-
-            <h1>
-              PESSOAS,
-              TECNOLOGIA E INOVAÇÃO
-            </h1>
-            <button class=" btn btn-danger">CONHEÇA NOSSO ERP</button>
-          </div>
-
-
-          <div class="imgSlogan">
-            <img src="/assets/logoLince.png">
-          </div>
-        </div>
-
-        <div class="frase">"As soluções apresentadas pela Lince são robustas, que proporcionam
-          eficiência, agilidade e flexibilidade para as rotinas diárias nas mais diversas
-          operações da empresa, entregando informações precisas e ágeis para tomada de decisão,
-          sendo fundamentais e estratégicas para a gestão dos negócios."
-          - Presidente da Plasvale"
-        </div>
-
-        <div class="sobreNos">
-          <h1 class="tituloSobre">Sobre nós</h1>
-        </div>
-      </main>
-
-      <footer>
-
-      </footer>-->
   </body>
 
   </html>
@@ -60,11 +24,13 @@
 
 <script>
 import TheHeader from './components/TheHeader.vue'
+import MainContent from './components/MainContent.vue' 
 
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    MainContent
   }
 }
 </script>
@@ -81,32 +47,7 @@ export default {
   }
 
 
-  .navBar {
-    padding: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-   
-
-  }
-
-  .navBar a {
-    text-decoration: none;
-    color: #C51631;
-    font-size: large;
-  }
-
-  .navBar a:hover {
-    text-decoration: underline;
-    color: black;
-    transition: color 0.5s;
-  }
-
-
-  .navBar .logoIMG {
-    max-width: 30%;
-    height: auto;
-  }
+  
 
 
 

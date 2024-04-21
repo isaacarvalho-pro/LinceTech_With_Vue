@@ -11,7 +11,6 @@
                 <button class="contato btn btn-danger" href="#">Entrar em contato</button>
             </div>
         </header>
-        <hr>
     </div>
 </template>
 
@@ -22,4 +21,31 @@
 
 
 <style>
+.navBar {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #C51631;
+
+
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #C51631;
+    font-size: large;
+}
+
+.navBar a:hover {
+    text-decoration: underline;
+    color: black;
+    transition: color 0.5s;
+}
+
+
+.navBar .logoIMG {
+    max-width: 30%;
+    height: auto;
+}
 </style>
