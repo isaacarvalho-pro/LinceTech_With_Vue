@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 1px solid #C51631;
+    /* border-bottom: 1px solid #C51631; */
 
 
 }
