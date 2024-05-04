@@ -13,6 +13,7 @@
   <body>
     <TheHeader>
     </TheHeader>
+
     <MainContent>
     </MainContent>
 
@@ -31,7 +32,7 @@ export default {
   components: {
     TheHeader,
     MainContent
-  }
+  },
 }
 </script>
 
@@ -45,10 +46,6 @@ export default {
   body {
     font-family: "Roboto", sans-serif;
   }
-
-
-  
-
 
 
   .slogan {
