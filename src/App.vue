@@ -17,6 +17,9 @@
     <MainContent>
     </MainContent>
 
+    <SobreNos>
+    </SobreNos>
+
   </body>
 
   </html>
@@ -26,12 +29,14 @@
 <script>
 import TheHeader from './components/TheHeader.vue'
 import MainContent from './components/MainContent.vue' 
+import SobreNos from './components/SobreNos.vue';
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    MainContent
+    MainContent,
+    SobreNos,
   },
 }
 </script>
@@ -74,17 +79,6 @@ export default {
     color: #C51631;
   }
 
-  .sobreNos {
-    background-color: #C51631;
-
-
-  }
-
-  .sobreNos h1 {
-    text-align: center;
-    color: white;
-
-  }
 
 }
 </style>
