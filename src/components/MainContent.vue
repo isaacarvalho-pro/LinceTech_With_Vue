@@ -12,6 +12,14 @@
     </div>
 </div>
 
+<div class="fraseLince">
+    <p>“As soluções apresentadas pela Lince são robustas, que proporcionam eficiência, agilidade e flexibilidade para as
+        rotinas diárias nas mais diversas operações da empresa, entregando informações precisas e ágeis para 
+        tomada de decisão, sendo fundamentais e estratégicas para a gestão dos negócios."</p>
+        <p>- Presidente da Plasvale
+    </p>
+</div>
+
 
 </template>
 
@@ -55,5 +63,17 @@
 .imgLince {
     display: flex;
     flex-direction: row;
+}
+
+.fraseLince p{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #C51631;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px
 }
 </style>
