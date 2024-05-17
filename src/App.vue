@@ -20,6 +20,9 @@
     <SobreNos>
     </SobreNos>
 
+    <BoasManeiras>
+    </BoasManeiras>
+
   </body>
 
   </html>
@@ -30,6 +33,7 @@
 import TheHeader from './components/TheHeader.vue'
 import MainContent from './components/MainContent.vue' 
 import SobreNos from './components/SobreNos.vue';
+import BoasManeiras from './components/BoasManeiras.vue'
 
 export default {
   name: 'App',
@@ -37,6 +41,7 @@ export default {
     TheHeader,
     MainContent,
     SobreNos,
+    BoasManeiras,
   },
 }
 </script>
